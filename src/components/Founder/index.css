@@ -1,0 +1,503 @@
+/** @format */
+
+@font-face {
+  src: url('../../../public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../../../public/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../../../public/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../../../public/fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hey October';
+  src: url('../../../public/fonts/Hey-October.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Horta';
+  src: url('../../../public/fonts/Horta.otf') format('opentype');
+}
+
+:root {
+  --primary-color: #335918;
+  --secondary-color: #a2ba1e;
+  --light-grey: #a6a6a6;
+  --dark-green: #022a06;
+  --jet-black: #282823;
+  --mint-white: #f5fff7;
+  --neon-green: #caff7b;
+  --white: #fff;
+}
+
+.women-2subtitlefounder {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#women-2subtitle-subbfounder {
+  max-width: fit-content;
+  max-width: fit-content;
+  color: var(--Secondary-Color, #a2ba1e);
+  font-family: 'Hey October';
+  font-size: 80px;
+  font-weight: 400;
+  height: 92px;
+}
+
+.women-2ndheadingfounder {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.women-2ndheadingfounder > h1 {
+  color: var(--Primary-Color, #335918);
+  text-align: center;
+  font-family: 'Horta';
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 57.801px;
+  letter-spacing: -2.308px;
+}
+.women-pag2paragraphfounder {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.women-pag2paragraphfounder > p {
+  width: 25vw;
+  color: #5b5b5b;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.womenempower-3rdpagefounder {
+  height: 1100px;
+}
+
+.womenempower-3rdpage-rapperfounder {
+  margin: auto;
+  height: auto;
+  width: 80vw;
+}
+
+.Womenempower-title-3rdpagefounder {
+  width: 40vw;
+  height: 398px;
+  margin: auto;
+}
+
+.womenempower-3rdbuttonfounder {
+  margin-top: 6%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#women-3rd-butn-discfounder {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 14px;
+  padding: 20px 25px 20px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  width: 210px;
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+#women-3rd-butn-discfounder:hover {
+  background: var(--white);
+  border: 1px solid #335918;
+  color: #335918;
+  cursor: pointer;
+}
+.women-3rdpage-belowtitlefounder {
+  column-gap: 10px;
+  display: flex;
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+.women-3rdpage-belowtitle1founder {
+  height: 445px;
+  width: 33.33%;
+  position: relative;
+}
+
+.women-3rdpage-belowtitle1founder img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.women-3rdpage-belowtitle2founder {
+  margin-top: 5vw;
+  width: 33.33%;
+  height: 491px;
+  position: relative;
+}
+.women-3rdpage-belowtitle2founder img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 30px;
+}
+.women-3rdpage-belowtitle3founder {
+  width: 33.33%;
+  height: 445px;
+  position: relative;
+}
+.women-3rdpage-belowtitle3founder img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.women-3rdpage-belowtitle1founder:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.women-3rdpage-belowtitle2founder:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.women-3rdpage-belowtitle3founder:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.women-3rdpagebelow-pictrefounder {
+  width: 40vw;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+}
+.women-3rdpage-picture-pargfounder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.women-3rdpage-picture-pargfounder > p {
+  height: 95px;
+  width: 21vw;
+  color: #5b5b5b;
+  text-align: center;
+  font-family: 'inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.672px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  color: white;
+  padding: 20px;
+  text-align: left;
+  display: none;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+
+  color: white;
+  padding: 20px;
+  text-align: left;
+  display: none;
+}
+.women-3rdpage-belowtitle2founder .overlay2 {
+  padding-bottom: 30px;
+}
+
+.overlay2 h4 {
+  font-family: 'Horta';
+  color: white;
+}
+
+.overlay2 p {
+  font-family: 'Inter';
+  color: white;
+}
+.overlay h4 {
+  font-family: 'Horta';
+  color: white;
+}
+
+.overlay p {
+  font-family: 'Inter';
+  color: white;
+}
+.women-3rdpage-belowtitle1founder:hover .overlay {
+  display: block;
+}
+.women-3rdpage-belowtitle2founder:hover .overlay2 {
+  display: block;
+}
+.women-3rdpage-belowtitle3founder:hover .overlay {
+  display: block;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1900px) {
+  .women-3rdpage-belowtitle2founder img {
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .womenempower-3rdbuttonfounder {
+    margin-top: 0px;
+    margin-bottom: 15px;
+   
+  }
+  #women-2subtitle-subbfounder {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    color: var(--Secondary-Color, #a2ba1e);
+    font-family: 'Hey October';
+    font-size: 50px;
+    font-weight: 400;
+    height: 35px;
+  }
+
+  .women-2ndheadingfounder > h1 {
+    color: var(--Primary-Color, #335918);
+    text-align: center;
+    font-family: 'Horta';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -2.308px;
+  }
+  .women-pag2paragraphfounder > p {
+    width: 80vw;
+    color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .Womenempower-title-3rdpagefounder {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+  }
+  /* #women-3rd-butn-discfounder {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18.018px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.018px;
+    letter-spacing: 0.21px;
+    background: var(--Primary-Color, #335918);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    width: 133.027px;
+    height: 45.06699999999999px;
+    border-radius: 14.012px;
+  } */
+  .womenempower-3rdpage-rapperfounder {
+    margin: auto;
+    height: auto;
+    width: 100vw;
+  }
+  .women-3rdpage-belowtitlefounder {
+    height: auto;
+    width: 80%;
+    display: block;
+  }
+  .women-3rdpage-belowtitle1founder {
+    width: 80vw;
+    height: 394px;
+  }
+  .women-3rdpage-belowtitle2founder {
+    margin-top: 5vw;
+    width: 80vw;
+    height: 354px;
+  }
+  .women-3rdpage-belowtitle3founder {
+    margin-top: 5vw;
+    width: 80vw;
+    height: 394px;
+  }
+  .womenempower-3rdpagefounder {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .women-3rdpagebelow-pictrefounder {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .women-3rdpage-picture-pargfounder > p {
+    height: 95px;
+    width: 100%;
+    color: #5b5b5b;
+    text-align: center;
+    font-family: 'inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.672px;
+  }
+  .women-pag2paragraphfounder {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .women-pag2paragraphfounder > p {
+    width: 40vw;
+    color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .Womenempower-title-3rdpagefounder {
+    width: 53vw;
+    height: 350px;
+    margin: auto;
+  }
+
+  #found {
+    /* padding-top: 45px; */
+  }
+
+  /* #women-3rd-butn-discfounder {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18.018px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.018px;
+    letter-spacing: 0.21px;
+    background: var(--Primary-Color, #335918);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    width: 157.027px;
+    height: 58.06699999999999px;
+    border-radius: 14.012px;
+  } */
+  .womenempower-3rdpage-rapperfounder {
+    margin: auto;
+    height: auto;
+    width: 98vw;
+  }
+  .women-3rdpage-belowtitlefounder {
+    column-gap: 10px;
+    height: 566px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+  }
+  .women-3rdpage-belowtitle1founder {
+    width: 33vw;
+    height: 394px;
+  }
+  .women-3rdpage-belowtitle2founder {
+    margin-top: 5vw;
+    width: 33vw;
+    height: 417px;
+  }
+
+  .women-3rdpage-belowtitle3founder {
+    width: 33vw;
+    height: 394px;
+  }
+  .women-3rdpagebelow-pictrefounder {
+    width: 56vw;
+    height: auto;
+    margin: auto;
+  }
+  .women-3rdpage-picture-pargfounder > p {
+    height: 95px;
+    width: 54vw;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24.672px;
+  }
+  .womenempower-3rdpagefounder {
+    height: 1019px;
+  }
+  .women-2ndheadingfounder > h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  #women-2subtitle-subbfounder {
+    font-size: 50px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .women-3rdpage-picture-pargfounder > p {
+    height: 95px;
+    width: 36vw;
+    text-align: center;
+    font-family: 'inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.672px;
+  }
+
+  .women-3rdpage-belowtitlefounder {
+    gap: 10px;
+  }
+
+  .women-2ndheadingfounder > h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+}

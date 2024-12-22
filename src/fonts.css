@@ -1,0 +1,11 @@
+/**
+ * fonts.css
+ *
+ * @format
+ */
+
+@font-face {
+  font-family: 'Horta';
+  src: url('../public/Horta\ demo.otf') format('opentype');
+  /* You can use other format types like 'woff', 'woff2', 'truetype', etc. */
+}

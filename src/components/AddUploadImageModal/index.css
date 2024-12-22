@@ -1,0 +1,45 @@
+/** @format */
+
+.save-button {
+  font-size: large;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2a5b11 0%, #457920 100%);
+  color: var(--color-white);
+  border: 0;
+  transition: 0.5s;
+  max-width: 500px;
+  width: 100%;
+  height: 65px;
+  font-weight: 500;
+}
+
+.save-button:hover {
+  background: var(--color-white);
+  color: #022a06;
+  border: 1px solid #335918;
+}
+
+.cancle-modal {
+  position: absolute;
+  top: 17px;
+  right: 21px;
+  cursor: pointer;
+  color: #d8d8d8;
+}
+
+.cancle-modal-custom {
+  position: absolute;
+  top: 17px;
+  right: 21px;
+  cursor: pointer;
+  background: #d8d8d8;
+  color: #4c4f54;
+  width: 30px;
+  height: 29px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

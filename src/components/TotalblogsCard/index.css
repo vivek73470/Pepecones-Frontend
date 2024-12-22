@@ -1,0 +1,85 @@
+/** @format */
+
+.card-heading {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+.mid-content {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 50px;
+}
+
+.mid-content > span {
+  font-size: 35px;
+  font-weight: 500;
+  color: #a2ba1e;
+}
+
+.content-position > span {
+  font-size: 35px;
+  font-weight: 500;
+  color: #a2ba1e;
+}
+
+.mid-content > p {
+  font-size: 15px;
+  text-align: center;
+  color: #8f9bba;
+}
+
+.description > p {
+  font-size: 15px;
+  text-align: center;
+  color: #8f9bba;
+}
+
+.content-position > p {
+  font-size: 15px;
+  text-align: center;
+  color: #8f9bba;
+}
+
+.content-position {
+  position: relative;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 50px;
+}
+
+.content-position > span {
+  position: absolute;
+  top: 45px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image > #first-image {
+  width: 205px;
+  position: absolute;
+  right: -30px;
+  top: -40px;
+  opacity: 0.3;
+  border-top-right-radius: 18px;
+}
+
+.card-image > #second-image {
+  width: 125px;
+  position: absolute;
+  left: -30px;
+  top: 220px;
+  opacity: 0.3;
+  border-bottom-left-radius: 22px;
+}

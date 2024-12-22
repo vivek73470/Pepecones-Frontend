@@ -1,0 +1,21 @@
+.container-css {
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: x mandatory y mandatory;
+    width: 100%; /* Make it responsive */
+    overflow: auto; /* Allow horizontal scrolling on small screens */
+  }
+  
+  .box-css {
+    /* height: 200px; */
+    /* width: 200px; */
+    /* background: red; */
+    /* margin-right: 5px; */
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  
+
+
+
+

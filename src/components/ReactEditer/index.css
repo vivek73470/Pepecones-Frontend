@@ -1,0 +1,42 @@
+/** @format */
+
+.jodit-container:not(.jodit_inline) {
+  position: relative;
+  width: -webkit-fill-available !important;
+  /* height: 530px !important; */
+}
+
+.jodit-toolbar__box:not(:empty):not(:empty) {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: -webkit-fill-available;
+}
+
+.jodit-workplace + .jodit-status-bar:not(:empty) {
+  display: none;
+}
+
+.jodit-container:not(.jodit_inline) .jodit-workplace {
+  min-height: 450px;
+  border-radius: 13px;
+}
+
+.jodit-container:not(.jodit_inline) .jodit-wysiwyg {
+  min-height: 450px;
+}
+
+.jodit-workplace + .jodit-status-bar:not(:empty) {
+  display: none;
+}
+
+.jodit-toolbar__box:not(:empty) {
+  border-radius: 13px;
+}
+
+.jodit-container:not(.jodit_inline) {
+  background-color: #f5f5f6;
+  border: 1px solid #dadada;
+  border-radius: 13px;
+}

@@ -1,0 +1,219 @@
+/** @format */
+
+@font-face {
+  font-family: 'Horta-Regular';
+  src: url(../../../public/fonts/Horta.otf);
+}
+
+@font-face {
+  font-family: 'Hey October-Regular';
+  src: url(../../../public/fonts/Hey-October.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(../../../public/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(../../../public/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(../../../public/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(../../../public/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Semibold';
+  src: url(../../../public/fonts/Montserrat-SemiBold.ttf);
+}
+
+:root {
+  --primary-color: #335918;
+  --secondary-color: #a2ba1e;
+  --light-grey: #a6a6a6;
+  --dark-green: #022a06;
+  --jet-black: #282823;
+  --mint-white: #f5fff7;
+  --neon-green: #caff7b;
+  --white: #ffffff;
+}
+
+.about-three-women1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  height: 487px;
+  align-items: center;
+}
+
+.about-img3-women1 {
+  height: 400px;
+}
+
+.about-img3-women1 > img {
+  border-radius: 14px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.about-about-row3-women1 {
+  width: 568px;
+}
+
+.about-about-row3-women1 > h1 {
+  color: #022a06;
+  font-family: 'Horta', sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.about-about-row3-women1 > p {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: #022a06;
+}
+
+.award-women1 {
+  display: flex;
+  margin-top: 35px;
+}
+
+.ser-women1 {
+  margin-left: 15px;
+}
+
+.ser-women1 > h3 {
+  color: #adc23a;
+  font-family: 'Horta';
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.ser-women1 > p {
+  font-weight: bolder;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rec-women1 > h3 {
+  color: #adc23a;
+  font-family: Horta;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.rec-women1 > p {
+  font-weight: bolder;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1324px) {
+  .about-three-women1 {
+    display: block;
+    height: auto;
+  }
+  .about-img3-women1 {
+    margin: auto;
+    height: 327px;
+    width: 433px;
+    order: 1;
+    display: flex;
+    justify-content: center;
+}
+.about-img3-women1 > img {
+  border-radius: 14px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+i
+  .about-about-row3-women1 {
+    width: auto;
+    text-align: center;
+    order: 2;
+    padding-bottom: 30px;
+  }
+
+  .award-women1 {
+    justify-content: center;
+  }
+  .about-about-row3-women1 > p {
+    margin: auto;
+    width: 73vw;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-three-women1 {
+    display: block;
+    height: auto;
+  }
+
+  .about-about-row3-women1 > h1 {
+    font-size: 30px;
+  }
+  .about-bout-row3 > p {
+    font-size: 14px;
+  }
+
+  .about-img3-women1 {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+  }
+  .about-about-row3-women1 {
+    width: auto;
+    text-align: center;
+  }
+
+  .award-women1 {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .about-about-row3-women1 > p {
+    width: 94%;
+    margin: auto;
+    font-size: 18px;
+  }
+  .rec-women1 > h3 {
+    font-size: 50px;
+  }
+  .ser-women1 > h3 {
+    font-size: 50px;
+  }
+
+  .ser-women1 > p {
+    font-size: 18px;
+  }
+  .rec-women1 > p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .about-img3-women1 {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+  }
+}

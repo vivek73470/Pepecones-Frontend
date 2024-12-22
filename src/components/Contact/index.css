@@ -1,0 +1,1047 @@
+/** @format */
+
+:root {
+  --primary-color: #335918;
+  --secondary-color: #a2ba1e;
+  --light-grey: #a6a6a6;
+  --dark-green: #022a06;
+  --jet-black: #282823;
+  --mint-white: #f5fff7;
+  --neon-green: #caff7b;
+  --white: #fff;
+}
+
+body {
+  margin: 0%;
+}
+
+.container-contact {
+  padding-top: 60px;
+  height: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(230, 246, 245, 1) 4%,
+    rgba(240, 248, 251, 1) 10%
+  );
+}
+
+.sub-container {
+  height: 700px;
+  display: grid;
+  grid-template-rows: 18% 82%;
+  width: 100vw;
+}
+#contact-get-pargph{
+  font-size: 20px;
+  font-family: 'Inter';
+  margin: auto;
+  width: 50%;
+}
+
+.div-12ndrow {
+  padding-bottom: 70px;
+  margin: auto;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-321 {
+  height: 581px;
+  margin: auto;
+  width: 90%;
+  border-radius: 2vw 2vw 0.6vw 1vw;
+  background-color: #f5fff7;
+  box-shadow: -14px 0px 1px #f5fff7;
+}
+
+.header101 {
+  padding-bottom: 40px;
+  color: black;
+  text-align: center;
+  /* position: relative; */
+}
+
+.getintouch {
+  font-style: normal;
+  font-size: 80px;
+  font-family: 'Horta', sans-serif;
+}
+
+.hedi-flex1 {
+  padding-top: 2.5%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-2 {
+  width: 46vw;
+}
+
+#drp-msg {
+  color: black;
+  font-family: 'Horta';
+  width: 70vw;
+  font-size: 40px;
+}
+
+.paragraph-contact {
+  width: 80vw;
+}
+
+#par-cont {
+  color: #1d2130;
+  font-size: 20px;
+  font-family: 'Inter';
+}
+.form-table {
+  font-family: 'Inter';
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.left-insddfim {
+  height: 490px;
+}
+
+.left-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 48.3vw;
+}
+
+.form-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2vw;
+}
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 3px;
+}
+
+.form-1 input {
+  width: 42%;
+  line-height: 22px;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+#ProductEnquiry {
+  width: 45%;
+  line-height: 22px;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  justify-content: space-between;
+}
+
+.form-2 input {
+  padding: 12px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+}
+
+.message {
+  position: relative;
+  border: none;
+  height: 100px;
+  width: 48.4vw;
+  border: none;
+  height: 100px;
+  top: 30px;
+}
+
+#sbt {
+  position: relative;
+  top: 55px;
+  width: 48vw;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  text-align: center;
+}
+
+#sbt:hover {
+  background: var(--mint-white);
+  border: 1px solid #335918;
+  color: #335918;
+  cursor: pointer;
+}
+
+.inside-contact {
+  position: relative;
+  top: 2vw;
+  left: -1vw;
+}
+
+.icen {
+  text-align: center;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  background-color: var(--neon-green);
+}
+
+.item2 {
+  margin-top: 0.8rem;
+  display: flex;
+  width: max-content;
+  height: 61px;
+}
+
+.item1 {
+  margin-top: 0.8rem;
+  display: flex;
+  width: fit-content;
+  height: 62px;
+}
+
+.item0 {
+  display: flex;
+  width: fit-content;
+  height: 61px;
+}
+
+.below {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #1d2130;
+  position: relative;
+  top: 0.2999999999999998vw;
+  left: 1.5vw;
+}
+
+.salesfinsweetcom {
+  position: relative;
+  left: 1.5vw;
+}
+
+#rotate-call {
+  left: 0.5vw;
+  top: 0.5vw;
+  position: relative;
+}
+
+#rotate-mail {
+  left: 0.5vw;
+  top: 0.5vw;
+  position: relative;
+}
+
+#rotate {
+  left: 0.5vw;
+  top: 0.7vw;
+  position: relative;
+  transform: rotate(-49deg);
+}
+
+.salesfinsweetcom {
+  color: #1d2130;
+  font-family: 'Inter';
+  font-size: 20px;
+}
+
+.cnt-sgvmail {
+  width: 42px;
+  height: 42px;
+}
+.contact-svgphone {
+  width: 42px;
+  height: 42px;
+}
+.form-2 .name::placeholder {
+  color: #1d2130;
+  font-weight: 300;
+}
+
+.form-1 .name::placeholder {
+  color: #1d2130;
+  font-weight: 300;
+}
+.message::placeholder {
+  color: #1d2130;
+  font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width: 1392px) {
+  .container-contact {
+    height: auto;
+    background: linear-gradient(
+      90deg,
+      rgba(230, 246, 245, 1) 4%,
+      rgba(240, 248, 251, 1) 10%
+    );
+  }
+
+  .sub-container {
+    margin: auto;
+    width: 92%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 22% 78%;
+  }
+  #contact-get-pargph {
+    margin: auto;
+    width: 70%;
+}
+
+  .getintouch {
+    font-style: normal;
+    font-size: 75px;
+    font-family: 'Horta', sans-serif;
+    margin-bottom: -6px;
+  }
+
+  .form-table {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .left-insddfim {
+    height: auto;
+  }
+
+  .div-12ndrow {
+    padding-left: 18px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+
+  .div-321 {
+    padding-bottom: 30px;
+    height: auto;
+    margin: auto;
+    width: 90%;
+    border-radius: 2vw 2vw 0.6vw 1vw;
+    background-color: #f5fff7;
+    box-shadow: -14px 0px 1px #f5fff7;
+  }
+
+  .hedi-flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* .header-2 {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 28vw;
+  } */
+
+  #drp-msg {
+    color: black;
+
+    width: 84vw;
+    font-size: 30px;
+  }
+
+  /* .paragraph-contact {
+    margin-left: 1%;
+    width: 50vw;
+  } */
+
+  .left-contact {
+    padding-bottom: 48px;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .form-1 {
+    margin-left: 1%;
+    display: flex;
+    justify-content: flex-start;
+    width: 76.8vw;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .form-2 {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3px;
+    width: 76.8vw;
+  }
+
+  .form-1 input {
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #ProductEnquiry {
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .form-2 input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+
+  .message {
+    margin-left: 1%;
+    border: none;
+    height: 100px;
+    width: 76.8vw;
+  }
+
+  #sbt {
+    margin-left: 1%;
+    text-align: center;
+    top: 50px;
+    width: 76.8vw;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 1.3333vw 3.3333vw;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  #sbt:hover {
+    background: var(--mint-white);
+    border: 1px solid #335918;
+    color: #335918;
+    cursor: pointer;
+  }
+
+  .inside-contact {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .contact-info {
+    padding-top: 4%;
+    padding-left: 2%;
+    position: relative;
+    width: 42%;
+    flex: 1;
+  }
+
+  .below {
+    font-family: 'Roboto', sans-serif;
+    opacity: 60%;
+  }
+
+  .icen {
+    text-align: center;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background-color: var(--neon-green);
+  }
+
+  .item2 {
+    display: flex;
+    width: max-content;
+    height: 61px;
+  }
+
+  .item1 {
+    margin-top: 0.8rem;
+    display: flex;
+    width: fit-content;
+    height: auto;
+  }
+
+  .item0 {
+    display: flex;
+    width: max-content;
+    height: auto;
+  }
+
+  .salesfinsweetcom {
+    position: relative;
+    left: 1.5vw;
+  }
+
+  #rotate-call {
+    left: 1.3vw;
+    top: 1.3vw;
+    position: relative;
+  }
+
+  #rotate-mail {
+    left: 1.3vw;
+    top: 1.3vw;
+    position: relative;
+  }
+
+  #rotate {
+    left: 1.3vw;
+    top: 1.3vw;
+    position: relative;
+    transform: rotate(-49deg);
+  }
+
+  .salesfinsweetcom {
+    font-family: 'Inter';
+    font-size: 20px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact-svgmail {
+    width: 36px;
+    height: 36px;
+  }
+  .contact-svgphone {
+    width: 36px;
+    height: 36px;
+  }
+  #par-cont {
+    color: #1d2130;
+    font-size: 18px;
+    font-family: 'Inter';
+  }
+  .salesfinsweetcom {
+    font-family: 'Inter';
+    font-size: 14px;
+  }
+  .form-1 {
+    row-gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 76.8vw;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .form-1 input {
+    width: 100%;
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .form-table {
+    margin-top: 20px;
+  }
+  .contact-info {
+    position: relative;
+    width: 42%;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1393px) {
+  .sub-container {
+    height: auto;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    width: 100vw;
+  }
+
+  .form-table {
+    padding-left: 2%;
+    height: 481px;
+    display: grid;
+    grid-template-columns: 66% 34%;
+  }
+  .left-insddfim {
+    height: 490px;
+  }
+  .div-321 {
+    height: auto;
+    margin: auto;
+    width: 90%;
+    border-radius: 2vw 2vw 0.6vw 1vw;
+    background-color: #f5fff7;
+    box-shadow: -14px 0px 1px #f5fff7;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #contact-get-pargph{
+    
+    font-size: 18px;
+    margin: auto;
+    width: 92%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #contact-get-pargph {
+   
+    font-size: 18px;
+    margin: auto;
+    width: 90%;
+}
+  .container-contact {
+    padding-bottom: 28px;
+    height: auto;
+    background: linear-gradient(
+      90deg,
+      rgba(230, 246, 245, 1) 4%,
+      rgba(240, 248, 251, 1) 10%
+    );
+  }
+
+  .sub-container {
+     height: auto;
+    display: grid;
+    grid-template-rows: 30% 70%;
+  }
+
+  .getintouch {
+    font-size: 45px;
+    font-style: normal;
+    font-family: 'Horta', sans-serif;
+  }
+
+  .left-insddfim {
+    height: 372px;
+  }
+
+  .div-12ndrow {
+    padding-left: 12px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .div-321 {
+    height: auto;
+    margin: auto;
+    border-radius: 2vw 2vw 0.6vw 1vw;
+    /* background-color: #f5fff7; */
+    box-shadow: -14px 0px 1px #f5fff7;
+  }
+
+  .hedi-flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header-2 {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 28vw;
+  }
+
+  #drp-msg {
+    color: black;
+
+    width: 85vw;
+    font-size: 24px;
+  }
+
+  .paragraph-contact {
+    margin-left: 1%;
+    width: 70vw;
+  }
+
+  .left-contact {
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .form-2 {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3px;
+    width: 76.8vw;
+  }
+
+  #ProductEnquiry {
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .form-2 input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+
+  .message {
+    margin-left: 1%;
+    border: none;
+    height: 100px;
+    width: 76.8vw;
+  }
+
+  #sbt {
+    margin-left: 1%;
+    text-align: center;
+    top: 50px;
+    width: 76.8vw;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 1.3333vw 3.3333vw;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  #sbt:hover {
+    background: var(--mint-white);
+    border: 1px solid #335918;
+    color: #335918;
+    cursor: pointer;
+  }
+
+  .inside-contact {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .below {
+    font-family: 'Roboto', sans-serif;
+    opacity: 60%;
+  }
+
+  .icen {
+    text-align: center;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background-color: var(--neon-green);
+  }
+
+  .item2 {
+    margin-top: 0.8rem;
+    display: flex;
+    width: max-content;
+    height: 61px;
+  }
+
+  .item1 {
+    margin-top: 0.8rem;
+    display: flex;
+    width: max-content;
+    height: 62px;
+  }
+
+  .item0 {
+    display: flex;
+    width: max-content;
+    height: 61px;
+  }
+
+  .salesfinsweetcom {
+    position: relative;
+    left: 1.5vw;
+  }
+
+  #rotate-call {
+    left: 2.5vw;
+    top: 2.5vw;
+    position: relative;
+  }
+
+  #rotate-mail {
+    left: 2.5vw;
+    top: 2.5vw;
+    position: relative;
+  }
+
+  #rotate {
+    left: 2.5vw;
+    top: 2.5vw;
+    position: relative;
+    transform: rotate(-40deg);
+  }
+  /* 
+  .salesfinsweetcom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  } */
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .sub-container {
+    width: 100%;
+  }
+  .salesfinsweetcom {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .container-contact {
+    height: 850px;
+    background: linear-gradient(
+      90deg,
+      rgba(230, 246, 245, 1) 4%,
+      rgba(240, 248, 251, 1) 10%
+    );
+  }
+
+  .sub-container {
+    display: grid;
+    grid-template-rows: 8% 92%;
+  }
+
+  .getintouch {
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Horta', sans-serif;
+  }
+
+  .left-insddfim {
+    height: 372px;
+  }
+
+  .div-12ndrow {
+    height: 745px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-321 {
+    height: 745px;
+    margin: auto;
+    border-radius: 2vw 2vw 0.6vw 1vw;
+    background-color: #f5fff7;
+    box-shadow: -14px 0px 1px #f5fff7;
+  }
+
+  .hedi-flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header-2 {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 28vw;
+  }
+
+  #drp-msg {
+    color: black;
+
+    width: 85vw;
+    font-size: 24px;
+  }
+
+  .paragraph-contact {
+    margin-left: 1%;
+    width: 70vw;
+  }
+
+  .left-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .form-1 {
+    margin-left: 1%;
+    display: flex;
+    justify-content: flex-start;
+    width: 76.8vw;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .form-2 {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3px;
+    width: 76.8vw;
+  }
+
+  .form-1 input {
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  #ProductEnquiry {
+    line-height: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .form-2 input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+
+  .message {
+    margin-left: 1%;
+    border: none;
+    height: 100px;
+    width: 76.8vw;
+  }
+
+  #sbt {
+    margin-left: 1%;
+    text-align: center;
+    top: 50px;
+    width: 76.8vw;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 1.3333vw 3.3333vw;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  #sbt:hover {
+    background: var(--mint-white);
+    border: 1px solid #335918;
+    color: #335918;
+    cursor: pointer;
+  }
+
+  .inside-contact {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .contact-info {
+    left: 5vw;
+    top: 4vw;
+    position: relative;
+    width: 42%;
+    flex: 1;
+  }
+
+  .below {
+    font-family: 'Roboto', sans-serif;
+    opacity: 60%;
+  }
+
+  .icen {
+    text-align: center;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background-color: var(--neon-green);
+  }
+
+  .item2 {
+    margin-top: 0.8rem;
+    display: flex;
+    width: 297px;
+    height: 61px;
+  }
+
+  .item1 {
+    margin-top: 0.8rem;
+    display: flex;
+    width: 300px;
+    height: 62px;
+  }
+
+  .item0 {
+    display: flex;
+    width: 241px;
+    height: 61px;
+  }
+
+  .salesfinsweetcom {
+    position: relative;
+    left: 1.5vw;
+  }
+
+  #rotate-call {
+    left: 2.5vw;
+    top: 2.5vw;
+    position: relative;
+  }
+
+  #rotate-mail {
+    left: 2.5vw;
+    top: 2.5vw;
+    position: relative;
+  }
+
+  #rotate {
+    left: 2.5vw;
+    top: 2.5vw;
+    position: relative;
+    transform: rotate(-40deg);
+  }
+
+  .salesfinsweetcom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  .header101 {
+    width: 94%;
+    color: black;
+    text-align: center;
+  }
+
+  body {
+    overflow-x: hidden;
+    margin: 0px;
+  }
+}
+
+.inside-contact {
+  font-family: 'Inter';
+}

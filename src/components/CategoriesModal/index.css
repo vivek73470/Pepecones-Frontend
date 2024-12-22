@@ -1,0 +1,68 @@
+/** @format */
+
+.categories-form > input {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #d5d2dc;
+  border-radius: 8px;
+  height: 55px;
+  padding-inline: 18px;
+}
+
+.categories-form > button {
+  background: linear-gradient(135deg, #2a5b11 0%, #457920 100%);
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  color: white;
+  border-radius: 8px;
+}
+.categorie-section {
+  width: inherit;
+  height: inherit;
+  overflow: auto;
+  margin-top: 10px;
+}
+.categories-list {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.description > h5 {
+  text-align: left;
+  color: #464e5f;
+}
+
+.description > h6 {
+  color: #b5b5c3;
+}
+
+.categories-list > span {
+  color: #b5b5c3;
+  cursor: pointer;
+}
+
+.categories-list > span:hover {
+  color: #ed341b;
+}
+
+td > span {
+  color: #b5b5c3;
+  cursor: pointer;
+}
+
+td > span:hover {
+  color: #ed341b;
+}
+span > #edit {
+  color: #b5b5c3;
+  cursor: pointer;
+}
+
+span > #edit :hover {
+  color: blue;
+}

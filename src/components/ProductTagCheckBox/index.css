@@ -1,0 +1,47 @@
+/** @format */
+
+.product-tag > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Styling for unchecked checkboxes */
+#product-check {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bbb7c5;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Styling for checked checkboxes */
+#product-check:checked::before {
+  content: '\2713';
+  font-size: 9px;
+  color: red;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  border: 2px solid red;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+}
+
+/* Optional: Hover effect */
+#product-check:hover {
+  border-color: red;
+}

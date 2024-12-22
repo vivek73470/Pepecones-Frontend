@@ -1,0 +1,168 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('/public/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('/public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('/public/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('/public/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('/public/fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hey October';
+  src: url('/public/fonts/Hey-October.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Horta';
+  src: url('/public/fonts/Horta.otf') format('opentype');
+}
+
+:root {
+  --black: #232536;
+  --dark-green: #022a06;
+  --dark-gray: #4c4c4c;
+  --light: #ffffff;
+  --medium-gray: #6d6e76;
+  --mint-white-bg: #f5fff7;
+  --neon-green: #b9ff66;
+  --primary-color: #335918;
+  --secondary-color: #a2ba1e;
+}
+
+.carousal-h2 {
+  font-family: 'Horta';
+
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 114px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #2d3134;
+  margin-bottom: -30px;
+}
+
+.carousal-h1 {
+  font-family: 'Horta';
+  font-size: 115px;
+  font-weight: 600;
+  line-height: 114px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+.carousal-p {
+  color: #5b5b5b;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.discover-btn {
+  padding: 0 25px 0 25px;
+  color: var(--light);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.discover-btn:hover {
+  color: var(--primary-color);
+  background-color: var(--light);
+  border: 1px solid var(--primary-color);
+}
+
+.previous-btn {
+  background: var(--light);
+  border: 1.26px solid #ececec;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.next-btn {
+  background: var(--dark-green);
+  border-radius: 50px;
+  padding: 20px;
+  box-shadow: 0px 3px 5px var(--neon-green);
+  margin-left: 35px;
+}
+
+/* .buttons{
+  background-color: var(--primary-color);
+
+} */
+
+.product-text h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 223px;
+  cursor: context-menu;
+}
+
+.deatil-btn {
+  border: 2px solid var(--primary-color);
+  border-radius: 7.657px;
+  width: 120px;
+  height: 36px;
+  color: var(--primary-color);
+  transition: all ease-in-out 0.2s;
+}
+
+.deatil-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--light);
+}
+
+.sec4-center-text h2 {
+  font-family: 'Horta', sans-serif;
+  font-size: 65px;
+  color: #2D3134;
+}
+
+.product-img-home {
+  height: 325px;
+  width: 380px;
+}
+.product-img-home img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.product-container-component {
+  padding: 20px;
+}

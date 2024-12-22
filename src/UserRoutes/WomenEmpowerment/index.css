@@ -1,0 +1,1343 @@
+/** @format */
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('../../../public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../../../public/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../../../public/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../../../public/fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hey October';
+  src: url('../../../public/fonts/Hey-October.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Horta';
+  src: url('../../../public/fonts/Horta.otf') format('opentype');
+}
+
+:root {
+  --primary-color: #335918;
+  --secondary-color: #a2ba1e;
+  --light-grey: #a6a6a6;
+  --dark-green: #022a06;
+  --jet-black: #282823;
+  --mint-white: #f5fff7;
+  --neon-green: #caff7b;
+  --white: #fff;
+}
+
+.WomenEmpower-rapper {
+  background-color: #ffffff;
+  padding-bottom: 5%;
+}
+.WomenEmpower1 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.WomenEmpower1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.womenempower-page1-abs {
+  width: 100%;
+  height: 453px;
+  position: absolute;
+  top: 45%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+}
+.women-title1 {
+  width: 38vw;
+  font-size: 100px;
+  font-family: 'Horta';
+  color: var(--mint-white);
+  line-height: 84.296px;
+  letter-spacing: -0.85px;
+  text-transform: uppercase;
+}
+.women-sub2 > h3 {
+  height: 60px;
+  font-size: 80px;
+  color: var(--Secondary-Color, #a2ba1e);
+  font-family: Hey October;
+}
+
+.women-bitton1:hover {
+  background: var(--white);
+  border: 1px solid #335918;
+  color: #335918;
+  cursor: pointer;
+}
+.women-bitton1 {
+  padding: 20px 25px 20px 25px;
+  display: flex;
+  justify-content: center;
+  /* height: 64px; */
+  width: 210px;
+  border-radius: 14.012px;
+  border: 1.168px solid var(--white, #fff);
+  box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.women-1st-flx {
+  margin-top: 2%;
+  gap: 10px;
+  display: flex;
+}
+.women-loremipsum {
+  width: 36vw;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18.448px;
+}
+.divider-text {
+  margin-top: 1.5%;
+  width: 1.5vw;
+  border-top: 3px solid green;
+}
+
+.Womenempower-2ndpage {
+  background-color: #ffffff;
+  height: 740px;
+}
+
+.Womenempower-2pagerapper {
+  margin: auto;
+
+  height: 700px;
+  width: 80vw;
+}
+.Womenempower-title {
+  width: max-content;
+  height: 270px;
+  margin: auto;
+}
+.women-2subtitle {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#women-2subtitle-subb {
+  max-width: fit-content;
+  max-width: fit-content;
+  color: var(--Secondary-Color, #a2ba1e);
+  font-family: Hey October;
+  font-size: 80px;
+  font-weight: 400;
+  height: auto;
+}
+
+.women-2ndheading {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.women-2ndheading > h1 {
+  width: max-content;
+  color: var(--Primary-Color, #335918);
+  text-align: center;
+  font-family: Horta;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 57.801px;
+  letter-spacing: -2.308px;
+}
+.women-pag2paragraph {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.women-pag2paragraph > p {
+  width: 30vw;
+  color: rgba(51, 51, 51, 0.8);
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+.womenempower-2nd-colmns {
+  height: 437px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.womenempower-2nd-colmns1 {
+  background-color: #ebffed;
+  border-bottom: 10px solid #022a06;
+}
+.women-2nd-shape1 {
+  margin-top: 82px;
+  margin-left: 82px;
+  width: 49.344px;
+  height: 49.344px;
+}
+.women-2nd-shape1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.women-2nd-inside1 {
+  padding-bottom: 20px;
+  margin-top: 34px;
+  margin-left: 82px;
+  width: 258.028px;
+  height: auto;
+}
+
+.women-2nd-aboutus > h1 {
+  color: var(--Black, #161722);
+  font-family: Horta;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45.232px;
+  letter-spacing: -0.46px;
+  text-transform: uppercase;
+}
+.women-2nd-lorem-parg1 > p {
+  color: var(--Black, #161722);
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.672px;
+}
+
+.womenempower-3rdpage {
+  height: 1100px;
+}
+
+.womenempower-3rdpage-rapper {
+  margin: auto;
+  height: auto;
+  width: 80vw;
+}
+
+.Womenempower-title-3rdpage {
+  width: 40vw;
+  height: 350px;
+  margin: auto;
+}
+
+.womenempower-3rdbutton {
+  margin-top: 6%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#women-3rd-butn-disc {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 21.018px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21.018px;
+  letter-spacing: 0.21px;
+  background: var(--Primary-Color, #335918);
+  box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+  width: 223.027px;
+  height: 77.067px;
+  border-radius: 14.012px;
+}
+#women-3rd-butn-disc:hover {
+  background: var(--white);
+  border: 1px solid #335918;
+  color: #335918;
+  cursor: pointer;
+}
+.women-3rdpage-belowtitle {
+  column-gap: 20px;
+  height: 592px;
+  width: 62vw;
+  margin: auto;
+  display: flex;
+}
+.women-3rdpage-belowtitle1 {
+  width: 20vw;
+  height: 394px;
+}
+.women-3rdpage-belowtitle1 img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.women-3rdpage-belowtitle2 {
+  margin-top: 5vw;
+  width: 20vw;
+  height: 491px;
+}
+.women-3rdpage-belowtitle2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.women-3rdpage-belowtitle3 {
+  width: 20vw;
+  height: 394px;
+}
+.women-3rdpage-belowtitle3 img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.women-3rdpagebelow-pictre {
+  width: 40vw;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+}
+.women-3rdpage-picture-parg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.women-3rdpage-picture-parg > p {
+  height: 95px;
+  width: 21vw;
+  color: var(--Black, #161722);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.672px;
+}
+
+.women-4th-page {
+  padding-bottom: 200px;
+  height: auto;
+  background: var(--mint-white-bg, #f5fff7);
+}
+.women-4thpage-rapper {
+  margin: auto;
+  height: 90%;
+  width: 80vw;
+  margin-top: 32px;
+}
+.women-4thpage-title {
+  width: max-content;
+  height: 160px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.women-4thpage-clm-pict {
+  position: relative;
+  column-gap: 15px;
+  height: 289px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.women-4thpage-clm-pict0 img {
+  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  margin-left: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.women-4thpage-clm-pict0:hover img {
+  margin-left: 0;
+}
+
+.women-4th-clm1-abs {
+  position: absolute;
+  top: 82%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  width: 17%;
+  height: auto;
+}
+.women-4th-clm1-abs > h1 {
+  color: var(--White, #fff);
+  font-family: Horta;
+  font-size: 34px;
+  letter-spacing: -0.34px;
+  text-transform: uppercase;
+}
+.women-4th-clm1-abs > p {
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 16.448px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.672px; /* 150% */
+}
+.women-4thpage-clm-pict1 img {
+  border-radius: 14px;
+  width: 97%;
+  height: 100%;
+  object-fit: fill;
+  margin-left: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.women-4thpage-clm-pict1:hover img {
+  margin-left: 0;
+}
+/* .women-4thpage-clm-pict1 img {
+  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  margin-left: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.women-4thpage-clm-pict1 img {
+  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  margin-left: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+} */
+
+.women-4th-clm1-abs1 {
+  position: absolute;
+  top: 82%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  width: 17%;
+  height: auto;
+}
+.women-4th-clm1-abs1 > h1 {
+  color: var(--White, #fff);
+  font-family: Horta;
+  font-size: 34px;
+  letter-spacing: -0.34px;
+  text-transform: uppercase;
+}
+
+.women-4th-clm1-abs12 {
+  position: absolute;
+  top: 82%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  width: 17%;
+  height: auto;
+}
+.women-4th-clm1-abs12 > h1 {
+  color: var(--White, #fff);
+  font-family: Horta;
+  font-size: 34px;
+  letter-spacing: -0.34px;
+  text-transform: uppercase;
+}
+
+.women-4th-clm1-abs13 {
+  position: absolute;
+  top: 82%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  width: 17%;
+  height: auto;
+}
+.women-4th-clm1-abs13 > h1 {
+  color: var(--White, #fff);
+  font-family: Horta;
+  font-size: 34px;
+  letter-spacing: -0.34px;
+  text-transform: uppercase;
+}
+
+.women-5th-page {
+  margin-bottom: 100px;
+  position: relative;
+  height: 940px;
+}
+.women-5th-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.women-5th-pagerapper {
+  border-bottom: 10px solid #022a06;
+  padding-bottom: 17px;
+  position: absolute;
+  width: 46vw;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  border-radius: 18px 18px 0px 0px;
+  background: var(--White, #fff);
+  -webkit-backdrop-filter: blur(20.559999465942383px);
+  backdrop-filter: blur(20.559999465942383px);
+}
+.women-5th-pageinside {
+  margin-top: 8%;
+  margin-left: 10%;
+  height: fit-content;
+  width: 42%;
+}
+.women-5th-wewant > h1 {
+  width: 20vw;
+  color: var(--Black, #161722);
+  font-family: 'Horta';
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65.792px; /* 173.137% */
+  letter-spacing: -0.38px;
+  text-transform: uppercase;
+}
+.women-5th-lorem > p {
+  width: 82%;
+  color: var(--Black, #161722);
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.672px; /* 150% */
+}
+.women-5th-btn {
+  margin-top: 20px;
+}
+#women-5th-btn {
+  padding: 20px 25px 20px 25px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21.018px;
+  letter-spacing: 0.21px;
+  background: var(--Primary-Color, #335918);
+  box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+  width: 210px;
+  /* height: 77.067px; */
+  border-radius: 14.012px;
+}
+#women-5th-btn:hover {
+  background: var(--mint-white);
+  border: 1px solid #335918;
+  color: #335918;
+  cursor: pointer;
+}
+.women-5th-inside-rht {
+  margin-right: 8%;
+  margin-top: -45%;
+  float: right;
+  height: 143px;
+  width: 193px;
+}
+
+.women-5th-inside-rht img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  /* .women-4thpage-clm-pict0 img {
+    margin-left: 30px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  } */
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .WomenEmpower1 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+
+  .women-4thpage-clm-pict > * {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .WomenEmpower1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  .womenempower-page1-abs {
+    width: 80%;
+    height: 338px;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+  .women-sub2 > h3 {
+    height: 27px;
+    font-size: 40px;
+    color: var(--Secondary-Color, #a2ba1e);
+    font-family: Hey October;
+  }
+  .women-title1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 65vw;
+    font-size: 40px;
+    font-family: 'Horta';
+    color: var(--mint-white);
+    line-height: 84.296px;
+    letter-spacing: -0.85px;
+    text-transform: uppercase;
+  }
+  .women-bitton1 {
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    justify-content: center;
+    /* height: 45px; */
+    width: max-content;
+    border-radius: 14.012px;
+    border: 1.168px solid var(--white, #fff);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15.018px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .women-loremipsum {
+    width: auto;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 16.448px;
+  }
+  .divider-text {
+    margin-top: 5%;
+    width: 10.5vw;
+    border-top: 4px solid green;
+  }
+
+  #women-2subtitle-subb {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    color: var(--Secondary-Color, #a2ba1e);
+    font-family: Hey October;
+    font-size: 34px;
+    font-weight: 400;
+    height: 35px;
+  }
+  .Womenempower-title {
+    width: 68vw;
+    height: 195px;
+    margin: auto;
+  }
+  .women-2ndheading > h1 {
+    color: var(--Primary-Color, #335918);
+    text-align: center;
+    font-family: Horta;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 57.801px;
+    letter-spacing: -2.308px;
+  }
+  .women-pag2paragraph > p {
+    width: 52vw;
+    color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 16.733px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .womenempower-2nd-colmns {
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .Womenempower-2ndpage {
+    height: auto;
+  }
+  .Womenempower-2pagerapper {
+    height: 100%;
+    width: 100vw;
+  }
+  .women-2nd-shape1 {
+    margin-top: 28px;
+    margin-left: 82px;
+    width: 49.344px;
+    height: 49.344px;
+  }
+  .Womenempower-title-3rdpage {
+    width: 68vw;
+    height: 276px;
+    margin: auto;
+  }
+  #women-3rd-butn-disc {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18.018px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.018px;
+    letter-spacing: 0.21px;
+    background: var(--Primary-Color, #335918);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    width: 133.027px;
+    height: 45.06699999999999px;
+    border-radius: 14.012px;
+  }
+  .womenempower-3rdpage-rapper {
+    margin: auto;
+    height: auto;
+    width: 100vw;
+  }
+  .women-3rdpage-belowtitle {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+  .women-3rdpage-belowtitle1 {
+    width: 100vw;
+    height: 394px;
+  }
+  .women-3rdpage-belowtitle2 {
+    margin-top: 5vw;
+    width: 100vw;
+    height: 491px;
+  }
+  .women-3rdpage-belowtitle3 {
+    margin-top: 5vw;
+    width: 100vw;
+    height: 394px;
+  }
+  .womenempower-3rdpage {
+    height: 1730px;
+  }
+  .women-3rdpagebelow-pictre {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .women-3rdpage-picture-parg > p {
+    height: 95px;
+    width: 100%;
+    color: var(--Black, #161722);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.672px;
+  }
+  .women-4thpage-rapper {
+    height: auto;
+    width: 100vw;
+    margin-top: 20px;
+  }
+  .women-4thpage-title {
+    margin-top: 20px;
+    width: 68vw;
+    height: 143px;
+    margin: auto;
+  }
+  .women-4thpage-clm-pict {
+    position: relative;
+    height: 100%;
+    display: block;
+  }
+  .women-4th-page {
+    padding: 1px;
+    height: auto;
+    background: var(--mint-white-bg, #f5fff7);
+    padding-bottom: 50px;
+  }
+  .women-4th-clm1-abs {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 67%;
+    height: 164px;
+  }
+  .women-4th-clm1-abs1 {
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 67%;
+    height: auto;
+  }
+  .women-4th-clm1-abs12 {
+    position: absolute;
+    top: 72%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 67%;
+    height: auto;
+  }
+  .women-4th-clm1-abs13 {
+    position: absolute;
+    top: 96%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 67%;
+    height: auto;
+  }
+  .women-5th-page {
+    margin-bottom: 20px;
+    position: relative;
+    height: 614px;
+  }
+  .women-5th-page img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .women-5th-pagerapper {
+    position: absolute;
+    height: 361px;
+    width: 88vw;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px 18px 0px 0px;
+    background: var(--White, #fff);
+    -webkit-backdrop-filter: blur(20.559999465942383px);
+    backdrop-filter: blur(20.559999465942383px);
+  }
+  .women-5th-pageinside {
+    margin-top: 8%;
+    margin-left: 5%;
+    height: 349px;
+    width: 72%;
+  }
+  .women-5th-wewant > h1 {
+    width: 65vw;
+    color: var(--Black, #161722);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.792px;
+    letter-spacing: -0.38px;
+    text-transform: uppercase;
+  }
+  #women-5th-btn {
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16.018px;
+    font-weight: 600;
+    line-height: 21.018px;
+    letter-spacing: 0.21px;
+    background: var(--Primary-Color, #335918);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    width: 40vw;
+    /* height: 47.06699999999999px; */
+    border-radius: 14.012px;
+  }
+  .women-5th-lorem > p {
+    width: 85%;
+    color: var(--Black, #161722);
+    font-family: 'Inter';
+    font-size: 16.448px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.672px;
+  }
+  .women-5th-inside-rht {
+    margin-right: 8%;
+    margin-top: -80%;
+    float: right;
+    height: 75px;
+    width: 104px;
+  }
+  .women-2nd-inside1 {
+    margin-top: 34px;
+    margin-left: 60px;
+    width: 276.02800000000002px;
+    height: 240px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .womenempower-2nd-colmns {
+    row-gap: 10px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  .WomenEmpower1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  .women-title1 {
+    width: 61vw;
+    font-size: 70px;
+    font-family: 'Horta';
+    color: var(--mint-white);
+    line-height: 84.296px;
+    letter-spacing: -0.85px;
+    text-transform: uppercase;
+  }
+  .womenempower-page1-abs {
+    width: 70%;
+    height: 453px;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+  }
+  .women-sub2 > h3 {
+    height: 43px;
+    font-size: 65px;
+    color: var(--Secondary-Color, #a2ba1e);
+    font-family: Hey October;
+  }
+  .women-bitton1 {
+    display: flex;
+    justify-content: center;
+    /* height: 51px; */
+    width: max-content;
+    border-radius: 14.012px;
+    border: 1.168px solid var(--white, #fff);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17.018px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .WomenEmpower-rapper {
+    height: 606px;
+    padding-bottom: 5%;
+  }
+  .women-loremipsum {
+    width: 39vw;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 16.448px;
+  }
+  .women-1st-flx {
+    margin-top: 5%;
+    gap: 10px;
+    display: flex;
+  }
+  .Womenempower-title {
+    width: max-content;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .women-pag2paragraph > p {
+    width: 36vw;
+    color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 15.733px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Womenempower-2pagerapper {
+    margin: auto;
+    height: auto;
+    width: 98vw;
+  }
+  .Womenempower-2ndpage {
+    height: max-content;
+  }
+  .Womenempower-title-3rdpage {
+    width: 53vw;
+    height: 350px;
+    margin: auto;
+  }
+  #women-3rd-butn-disc {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18.018px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.018px;
+    letter-spacing: 0.21px;
+    background: var(--Primary-Color, #335918);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    width: 157.027px;
+    height: 58.06699999999999px;
+    border-radius: 14.012px;
+  }
+  .womenempower-3rdpage-rapper {
+    margin: auto;
+    height: auto;
+    width: 98vw;
+  }
+  .women-3rdpage-belowtitle {
+    column-gap: 10px;
+    height: 566px;
+    width: 98vw;
+    margin: auto;
+    display: flex;
+  }
+  .women-3rdpage-belowtitle1 {
+    width: 33vw;
+    height: 394px;
+  }
+  .women-3rdpage-belowtitle2 {
+    margin-top: 5vw;
+    width: 33vw;
+    height: 491px;
+  }
+
+  .women-3rdpage-belowtitle3 {
+    width: 33vw;
+    height: 394px;
+  }
+  .women-3rdpagebelow-pictre {
+    width: 56vw;
+    height: auto;
+    margin: auto;
+    /* margin-top: 1px; */
+  }
+  .women-3rdpage-picture-parg > p {
+    height: 95px;
+    width: 54vw;
+    color: var(--Black, #161722);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.672px;
+  }
+  .womenempower-3rdpage {
+    height: 1019px;
+  }
+  .women-4thpage-rapper {
+    margin: auto;
+    height: auto;
+    width: 98vw;
+  }
+  .women-4thpage-title {
+    width: max-content;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .women-4th-page {
+    padding-bottom: 89px;
+    height: auto;
+    background: var(--mint-white-bg, #f5fff7);
+  }
+  .women-4thpage-clm-pict {
+    row-gap: 10px;
+    position: relative;
+    column-gap: 6px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .women-4th-clm1-abs {
+    position: absolute;
+    top: 44%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    width: 27%;
+    height: auto;
+  }
+  .women-4th-clm1-abs1 {
+    position: absolute;
+    top: 44%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 27%;
+    height: auto;
+  }
+  .women-4th-clm1-abs12 {
+    position: absolute;
+    top: 95%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    width: 27%;
+    height: auto;
+  }
+  .women-4th-clm1-abs13 {
+    position: absolute;
+    top: 95%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 27%;
+    height: auto;
+  }
+  .women-5th-pagerapper {
+    position: absolute;
+    height: auto;
+    width: 64vw;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px 18px 0px 0px;
+    background: var(--White, #fff);
+    -webkit-backdrop-filter: blur(20.559999465942383px);
+    backdrop-filter: blur(20.559999465942383px);
+  }
+  .women-5th-wewant > h1 {
+    width: 52vw;
+    color: var(--Black, #161722);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45.792px;
+    letter-spacing: -0.38px;
+    text-transform: uppercase;
+  }
+  .women-5th-lorem > p {
+    width: 100%;
+    color: var(--Black, #161722);
+    font-family: 'Inter';
+    font-size: 16.448px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.672px;
+  }
+  #women-5th-btn {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18.018px;
+    font-weight: 600;
+    line-height: 21.018px;
+    letter-spacing: 0.21px;
+    background: var(--Primary-Color, #335918);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    width: max-content;
+    /* height: 52.06699999999999px; */
+    border-radius: 14.012px;
+  }
+  .women-5th-inside-rht {
+    margin-right: 8%;
+    margin-top: -35%;
+    float: right;
+    height: 95px;
+    width: 134px;
+  }
+  .women-5th-page {
+    margin-bottom: 20px;
+    position: relative;
+    height: 379px;
+  }
+  .women-5th-pageinside {
+    margin-top: 8%;
+    margin-left: 10%;
+    height: auto;
+    width: 42%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .Womenempower-2pagerapper {
+    height: 700px;
+    margin: auto;
+    width: 90vw;
+  }
+  .womenempower-2nd-colmns {
+    height: 484px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .women-2nd-inside1 {
+    margin-top: 34px;
+    margin-left: 50px;
+    width: 222.02800000000002px;
+    height: 193.456px;
+  }
+  .womenempower-page1-abs {
+    width: 75%;
+    height: 453px;
+    position: absolute;
+    top: 48%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+  }
+  .women-title1 {
+    width: 52vw;
+    font-size: 85px;
+    font-family: 'Horta';
+    color: var(--mint-white);
+    line-height: 84.296px;
+    letter-spacing: -0.85px;
+    text-transform: uppercase;
+  }
+  .women-bitton1 {
+    display: flex;
+    justify-content: center;
+    /* height: 64px; */
+    width: 20vw;
+    border-radius: 14.012px;
+    border: 1.168px solid var(--white, #fff);
+    box-shadow: 0px 35.03038px 35.03038px -21.01823px rgba(57, 229, 54, 0.16);
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .WomenEmpower1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  .women-loremipsum {
+    width: 28vw;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 16.448px;
+  }
+  .women-3rdpage-picture-parg > p {
+    height: 95px;
+    width: 36vw;
+    color: var(--Black, #161722);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.672px;
+  }
+  .WomenEmpower-rapper {
+    height: 610px;
+    padding-bottom: 5%;
+  }
+  .women-4thpage-rapper {
+    margin: auto;
+    height: 90%;
+    width: 90vw;
+    margin-top: 32px;
+  }
+  .women-4thpage-clm-pict0 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .women-4thpage-clm-pict1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .women-4th-page {
+    padding: 1px;
+    height: 579px;
+    background: var(--mint-white-bg, #f5fff7);
+  }
+  .women-5th-wewant > h1 {
+    width: 36vw;
+    color: var(--Black, #161722);
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65.792px;
+    letter-spacing: -0.38px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+  .women-4th-page {
+    height: 559px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  #women-2subtitle-subb {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    color: var(--Secondary-Color, #a2ba1e);
+    font-family: Hey October;
+    font-size: 25px;
+    font-weight: 400;
+    height: 9px;
+  }
+  .Womenempower-title {
+    width: 68vw;
+    height: 240px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .women-1st-flx {
+    margin-top: 8%;
+    gap: 10px;
+    display: flex;
+  }
+  #women-2subtitle-subb {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    color: var(--Secondary-Color, #a2ba1e);
+    font-family: Hey October;
+    font-size: 25px;
+    font-weight: 400;
+    height: 9px;
+  }
+  .Womenempower-title {
+    width: 68vw;
+    height: 274px;
+    margin: auto;
+  }
+  .women-2nd-inside1 {
+    height: 240px;
+    margin-left: 42px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .women-5th-inside-rht {
+    margin-top: -28%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .Womenempower-title {
+    padding-bottom: 40px;
+    height: auto;
+    width: 68vw;
+      margin: auto;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .Womenempower-title {
+    height: auto;
+    padding-bottom: 40px;
+    width: 68vw;
+     margin: auto;
+  }
+}

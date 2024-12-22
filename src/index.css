@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  height: 100vh;
+  color: var(--secondary-grey-900, #2b3674);
+  background: var(--secondary-grey-300, #f4f7fe);
+}
+#root {
+--color-green:#335918;
+
+  /* ////////////////////////////////////////////// */
+  --color-black: black;
+  --dark-blue:#1b2559
+  --color-light-black: #1f1b2d;
+  --background-color: #211f1fc4;
+  --blue-color: #335918;
+  --sky-blue: #014fe9;
+  --color-primary: #007bff;
+  --color-primary-variant: #2b3674;
+  --color-secondary-variant:  linear-gradient(135deg, #2A5B11 0%, #457920 100%);
+;
+  --light-primary: #5664d2;
+  --color-background: #f1f5f7;
+  --color-brunish: #8094ae;
+  --color-light: #efecf3;
+  --color-white: #ffff;
+  --color-antique: #acacac;
+  --color-dark-varient: #23394a;
+  --color-info-dark: #8590a5;
+  --box-shadow-color: 0px 8px 24px 0px rgba(9, 30, 66, 0.1);
+  --box-shadow-light-blue: 0px 3px 12px 0px #4a3aff2e;
+  --color-border: #cac9c9;
+  --secondary-grey-700: #707eae;
+  --light-grey: #505d69;
+  --modal-Background: #999999;
+  --card-heading-color: #a3aed0;
+  --reject-solid-color: red;
+  --reject-light-color: #ffcccc;
+  --approve-solid-color: #4caf50;
+  --approve-light-color: rgb(209 249 237);
+  --pendign-solid-color: #ffc700;
+  --pendign-light-color: #ffffa5;
+  --border-light: 1.21px solid #d5d2dc;
+  --border-blue: 1.21px solid #335918;
+  --border-antique: 1px solid #acacac;
+  --linear-gredient: #335918;
+  --linear-grediant_1: linear-gradient(135deg, #3574f2 0%, #014fe9 100%);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

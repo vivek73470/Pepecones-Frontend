@@ -1,0 +1,88 @@
+/** @format */
+
+.papper-attribute {
+  margin-bottom: 50px;
+}
+
+.papper-attribute > span {
+  font-weight: 500;
+  font-size: 25.49px;
+  color: #1f1b2d;
+}
+
+.attribute-field {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 690px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 120px;
+}
+
+.attribute-field > input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  outline: none;
+  max-width: 400px;
+}
+
+.attribute-field > span {
+  padding: 11px 25px;
+  background: linear-gradient(135deg, #2a5b11 0%, #457920 100%);
+  color: #ffff;
+  border-radius: 8px;
+}
+
+.color-picker {
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  outline: none;
+  max-width: 165px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  position: relative;
+}
+
+.color-picker > input {
+  height: -webkit-fill-available;
+  width: 87px;
+}
+
+.color-picker > .picker {
+  width: 50%;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.color-picker > .vector-image {
+  width: 50%;
+  height: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-picker > #upload {
+  position: absolute;
+  width: 82px;
+  height: -webkit-fill-available;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

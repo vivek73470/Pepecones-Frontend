@@ -1,0 +1,71 @@
+/**
+ * CustomDropdown.css
+ *
+ * @format
+ */
+
+/* .custom-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 52px;
+} */
+
+.dropdown-button {
+  cursor: pointer;
+  padding: 14px 1.8vw;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #11142d;
+  font-weight: 700;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.dropdown-button.open {
+  border-radius: 10px 10px 0 0;
+}
+
+.dropdown-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
+  overflow: scroll;
+  height: 300px;
+}
+
+.dropdown-list.open {
+  display: block;
+  z-index: 2;
+}
+
+.dropdown-list li {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  color: #11142d;
+  font-weight: 700;
+  border-bottom: 1px solid lightgray;
+}
+
+.dropdown-list li:hover {
+  background-color: #f0f0f0;
+}

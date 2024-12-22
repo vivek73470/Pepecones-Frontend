@@ -1,0 +1,182 @@
+/** @format */
+
+.himalyan {
+  width: 100%;
+  box-shadow: var(--box-shadow-color);
+  border-radius: 25px;
+  height: inherit;
+  margin-top: 45px;
+  height: 420px;
+  position: relative;
+}
+
+.himalyan > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 25px;
+}
+
+.feature-btn {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-btn > button {
+  border: none;
+  padding: 8px 28px;
+  background: #b9ff66;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.himalyan > h4 {
+  position: absolute;
+  top: 28%;
+  left: 28%;
+  font-size: 2vw;
+  color: #fff;
+  font-weight: 700;
+  max-width: 45%;
+  text-align: -webkit-center;
+}
+
+.himalyan > p {
+  position: absolute;
+  top: 48%;
+  left: 32%;
+  color: #f5fff7;
+  max-width: 37%;
+  font-size: 0.8vw;
+  text-align: -webkit-center;
+}
+
+.himalyan > #date {
+  position: absolute;
+  top: 65%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#date > h5 {
+  color: #f5fff7;
+  text-align: -webkit-center;
+  font-size: 25px;
+}
+
+@media (max-width: 1400px) {
+  .himalyan > h4 {
+    font-size: 2.2vw;
+  }
+
+  .himalyan > p {
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .himalyan > h4 {
+    left: 19%;
+    font-size: 2.2vw;
+    max-width: 62%;
+  }
+
+  .himalyan > p {
+    left: 19%;
+    max-width: 62%;
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .himalyan > img {
+    object-fit: cover;
+  }
+
+  .himalyan > h4 {
+    left: 19%;
+    font-size: 2.8vw;
+    max-width: 62%;
+  }
+
+  .himalyan > p {
+    left: 19%;
+    max-width: 62%;
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .himalyan > img {
+    object-fit: cover;
+  }
+
+  .himalyan > h4 {
+    left: 17%;
+    font-size: 3vw;
+    max-width: 68%;
+  }
+
+  .himalyan > p {
+    left: 17%;
+    max-width: 68%;
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 668px) {
+  .himalyan > img {
+    object-fit: cover;
+  }
+
+  .himalyan > h4 {
+    left: 17%;
+    font-size: 3.4vw;
+    max-width: 68%;
+  }
+
+  .himalyan > p {
+    left: 17%;
+    max-width: 68%;
+    font-size: 2.2vw;
+  }
+}
+
+@media (max-width: 568px) {
+  .himalyan > img {
+    object-fit: cover;
+  }
+
+  .himalyan > h4 {
+    left: 14%;
+    max-width: 72%;
+  }
+
+  .himalyan > p {
+    left: 14%;
+    max-width: 72%;
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 468px) {
+  .himalyan > img {
+    object-fit: cover;
+  }
+
+  .himalyan > h4 {
+    left: 6%;
+    max-width: 89%;
+    font-size: 4vw;
+  }
+
+  .himalyan > p {
+    left: 6%;
+    max-width: 88%;
+    font-size: 3vw;
+  }
+}
